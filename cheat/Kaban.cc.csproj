@@ -1,0 +1,43 @@
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+  <PropertyGroup>
+    <AssemblyName>Kaban.cc</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <UseWindowsForms>True</UseWindowsForms>
+    <TargetFramework>net10.0</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Хитролох_иди_нахуй._________72_8_6__5_" />
+    <EmbeddedResource Include="Хитролох_иди_нахуй._________72_8_6__5_" LogicalName="Хитролох_иди_нахуй._________72_8_6__5_" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Robust.Shared" />
+    <Reference Include="Robust.Client" />
+    <Reference Include="0Harmony" />
+    <Reference Include="MinHook.NET" />
+    <Reference Include="Hexa.NET.ImGui" />
+    <Reference Include="DiscordRPC" />
+    <Reference Include="Content.Shared" />
+    <Reference Include="Robust.Shared.Maths" />
+    <Reference Include="Content.Client" />
+    <Reference Include="SixLabors.ImageSharp" />
+    <Reference Include="Microsoft.Web.WebView2.Core" />
+    <Reference Include="Microsoft.Web.WebView2.Wpf" />
+    <Reference Include="SocketIOClient" />
+    <Reference Include="Newtonsoft.Json" />
+    <Reference Include="System.Drawing.Common" />
+    <Reference Include="SpaceWizards.Lidgren.Network" />
+    <Reference Include="NLua" />
+    <Reference Include="Хитролох_иди_нахуй.____9____7_0_" />
+    <Reference Include="Hexa.NET.ImGui.Backends" />
+    <Reference Include="System.Management" />
+    <Reference Include="KeraLua" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,313 @@
+/* ============================================
+   АДАПТИВНЫЕ СТИЛИ ДЛЯ МЕНЮ KABAN.CC
+   Решает проблему обрезания на разных разрешениях
+   ============================================ */
+
+/* Базовые адаптивные настройки */
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Контейнер приложения - адаптивный */
+#root {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* Главный контейнер меню */
+.menu-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+/* Боковая панель навигации */
+.sidebar {
+    min-width: 200px;
+    max-width: 250px;
+    width: 20%;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex-shrink: 0;
+}
+
+/* Основной контент */
+.main-content {
+    flex: 1;
+    height: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 20px;
+}
+
+/* Адаптивная сетка для настроек */
+.settings-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+    width: 100%;
+}
+
+/* Карточки настроек */
+.setting-card {
+    min-width: 0; /* Позволяет карточкам сжиматься */
+    max-width: 100%;
+}
+
+/* Адаптивные медиа-запросы - на основе РАЗМЕРА ОКНА */
+
+/* Для больших окон (2K мониторы: 1400x1120+) */
+@media screen and (min-width: 1400px) {
+    .sidebar {
+        min-width: 250px;
+        max-width: 300px;
+    }
+    
+    .main-content {
+        padding: 30px;
+    }
+    
+    .settings-grid {
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+        gap: 24px;
+    }
+    
+    /* Увеличиваем шрифты для больших окон */
+    body {
+        font-size: 16px;
+    }
+}
+
+/* Для средних окон (Full HD мониторы: 1080x864+) */
+@media screen and (min-width: 1080px) and (max-width: 1399px) {
+    .sidebar {
+        min-width: 220px;
+        max-width: 280px;
+    }
+    
+    .main-content {
+        padding: 25px;
+    }
+    
+    .settings-grid {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        gap: 20px;
+    }
+}
+
+/* Для стандартных окон (900x720 - 1079x863) */
+@media screen and (min-width: 900px) and (max-width: 1079px) {
+    .sidebar {
+        min-width: 200px;
+        max-width: 250px;
+    }
+    
+    .main-content {
+        padding: 20px;
+    }
+    
+    .settings-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 16px;
+    }
+}
+
+/* Для маленьких окон (<900px - не должно происходить из-за MinimumSize) */
+@media screen and (max-width: 899px) {
+    .sidebar {
+        min-width: 180px;
+        max-width: 220px;
+        width: 18%;
+    }
+    
+    .main-content {
+        padding: 15px;
+    }
+    
+    .settings-grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 12px;
+    }
+    
+    /* Уменьшаем шрифты для маленьких окон */
+    body {
+        font-size: 13px;
+    }
+}
+
+/* Адаптивные заголовки */
+h1 {
+    font-size: clamp(1.5rem, 2vw, 2.5rem);
+}
+
+h2 {
+    font-size: clamp(1.25rem, 1.5vw, 2rem);
+}
+
+h3 {
+    font-size: clamp(1rem, 1.25vw, 1.5rem);
+}
+
+/* Адаптивные кнопки */
+button, .btn {
+    font-size: clamp(0.875rem, 1vw, 1rem);
+    padding: clamp(8px, 1vw, 12px) clamp(16px, 2vw, 24px);
+}
+
+/* Адаптивные инпуты */
+input, select, textarea {
+    font-size: clamp(0.875rem, 1vw, 1rem);
+    padding: clamp(6px, 0.8vw, 10px) clamp(12px, 1.5vw, 16px);
+}
+
+/* Скроллбар для разных размеров окна */
+@media screen and (min-width: 1400px) {
+    .custom-scrollbar::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .custom-scrollbar::-webkit-scrollbar {
+        width: 3px;
+        height: 3px;
+    }
+}
+
+/* Адаптивные отступы для контента */
+.content-wrapper {
+    max-width: 100%;
+    margin: 0 auto;
+    padding: clamp(10px, 2vw, 30px);
+}
+
+/* Адаптивная высота элементов */
+.full-height {
+    height: 100vh;
+    max-height: 100vh;
+}
+
+/* Предотвращение переполнения */
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.overflow-auto {
+    overflow: auto;
+}
+
+/* Адаптивные flex-контейнеры */
+.flex-responsive {
+    display: flex;
+    flex-wrap: wrap;
+    gap: clamp(8px, 1.5vw, 20px);
+}
+
+/* Адаптивные карточки */
+.card-responsive {
+    min-width: 250px;
+    max-width: 100%;
+    flex: 1 1 auto;
+}
+
+/* Zoom-адаптация для высоких DPI */
+@media screen and (-webkit-min-device-pixel-ratio: 1.5),
+       screen and (min-resolution: 144dpi) {
+    body {
+        -webkit-text-size-adjust: 100%;
+        -moz-text-size-adjust: 100%;
+        text-size-adjust: 100%;
+    }
+}
+
+/* Адаптивная таблица */
+.table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+table {
+    width: 100%;
+    min-width: 600px;
+}
+
+/* Адаптивные модальные окна */
+.modal {
+    max-width: 90vw;
+    max-height: 90vh;
+    overflow: auto;
+}
+
+@media screen and (min-width: 1080px) {
+    .modal {
+        max-width: 80vw;
+        max-height: 85vh;
+    }
+}
+
+/* Адаптивные иконки */
+.icon {
+    width: clamp(16px, 1.5vw, 24px);
+    height: clamp(16px, 1.5vw, 24px);
+}
+
+/* Адаптивные разделители */
+.divider {
+    margin: clamp(10px, 2vh, 20px) 0;
+}
+
+/* Утилиты для скрытия на разных размерах окна */
+@media screen and (max-width: 900px) {
+    .hide-on-small {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .hide-on-large {
+        display: none !important;
+    }
+}
+
+/* Адаптивные отступы */
+.p-responsive {
+    padding: clamp(10px, 2vw, 30px);
+}
+
+.m-responsive {
+    margin: clamp(10px, 2vw, 30px);
+}
+
+/* Адаптивная ширина контента */
+.w-responsive {
+    width: clamp(300px, 80vw, 1200px);
+}
+
+/* Адаптивная высота контента */
+.h-responsive {
+    height: clamp(200px, 60vh, 800px);
+}
+
+
+/* Auto Painter - Pixelated images */
+.pixelated {
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+}

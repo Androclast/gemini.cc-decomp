@@ -1,0 +1,932 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Хитролох_иди_нахуй.____9____7_0_</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net20</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>14.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="Kaban.cc.Resources.Web.index.html" />
+    <None Remove="Kaban.cc.Resources.Web.responsive.css" />
+    <None Remove="Kaban.cc.Resources.cimgui.dll" />
+    <None Remove="Kaban.cc.Resources.ImGuiImpl.dll" />
+    <None Remove="Kaban.cc.Resources.Font1.Font.ttf" />
+    <None Remove="Kaban.cc.Resources.Sounds.Disable.Disable1.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Disable.Disable2.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Disable.Disable3.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Disable.Disable4.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Disable.Disable5.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Disable.Disable6.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Disable.Disable7.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Disable.Disable8.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Disable.Disable9.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Disable.Disable10.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Disable.Disable11.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Disable.Disable12.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Disable.Disable13.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Disable.Disable14.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Disable.Disable15.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Disable.Disable17.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Disable.Disable18.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Disable.Disable19.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Disable.Disable20.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Disable.Disable21.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Disable.Disable22.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Enable.Enable1.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Enable.Enable2.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Enable.Enable3.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Enable.Enable4.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Enable.Enable5.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Enable.Enable6.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Enable.Enable7.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Enable.Enable8.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Enable.Enable9.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Enable.Enable10.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Enable.Enable11.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Enable.Enable12.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Enable.Enable13.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Enable.Enable14.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Enable.Enable15.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Enable.Enable17.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Enable.Enable18.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Enable.Enable19.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Enable.Enable20.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Enable.Enable21.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Enable.Enable22.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Hit.bell.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Hit.bell2.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Hit.crime.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Hit.Marker.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Hit.metallic.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Hit.Moan.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Hit.moan1.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Hit.moan2.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Hit.moan3.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Hit.moan4.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Hit.rust.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Hit.soft.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Hit.softhit.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Hit.ston.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Hit.UwU.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Hit.hit3.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Hit.hit4.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Hit.kolokolnia_kill.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Hit.hitsound-tf2.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Hit.critical-hit-tf2_1.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Hit.impressive-quake-iii.wav" />
+    <None Remove="Kaban.cc.Resources.Sounds.Disable.Disable16.ogg" />
+    <None Remove="Kaban.cc.Resources.Sounds.Enable.Enable16.ogg" />
+    <None Remove="Kaban.cc.Resources.Visuals.arrow.arrow.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.arrow.arrow1.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.arrow.arrow2.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.arrow.arrow3.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.arrow.arrow4.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.arrow.arrow5.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.arrow.arrow6.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.arrow.arrow7.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.arrow.arrow8.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.arrow.arrow9.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.arrow.arrow10.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.arrow.arrow11.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.chinahat.hat01.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.chinahat.hat02.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.chinahat.hat03.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.chinahat.hat04.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.chinahat.hat05.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.chinahat.hat06.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.chinahat.hat07.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.chinahat.hat08.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.frageffects.vignette.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.hitbubble.bubble.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.hitbubble.hit.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.circle.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.circle3.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.circle4.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.circle5.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.glowedcircle.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.jump.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.jump_2.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.konchal.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.swastika.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_1.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_2.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_3.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_4.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_5.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_6.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_7.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_8.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_9.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_10.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_11.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_12.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_13.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_14.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_15.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_16.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_17.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_18.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_19.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_20.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_21.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_22.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_23.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_24.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_25.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_26.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_27.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_28.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_29.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_30.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_31.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_32.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_33.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_34.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_35.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_36.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_37.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_38.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_39.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_40.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_41.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_42.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_43.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_44.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_45.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_46.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_47.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_48.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_49.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_50.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_51.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_52.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_53.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_54.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_55.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_56.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_57.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_58.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_59.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_60.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_61.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_62.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_63.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_64.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_65.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_66.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_67.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_68.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_69.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_70.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_71.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_72.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_73.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_74.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_75.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_76.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_77.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_78.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_79.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_80.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_81.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_82.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_83.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_84.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_85.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_86.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_87.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_88.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_89.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_90.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_91.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_92.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_93.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_94.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_95.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_96.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_97.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_98.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_99.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_100.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_101.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_102.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_103.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_104.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_105.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_106.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_107.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_108.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_109.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_110.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_111.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_112.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_113.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_114.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_115.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_116.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_117.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_118.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_119.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_120.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_121.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_122.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_123.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_124.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_125.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_126.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_127.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_128.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_129.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_130.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_131.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_132.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_133.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_134.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_135.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_136.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_137.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_138.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_139.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_140.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_141.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_142.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_143.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_144.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_145.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_146.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_147.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_148.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_149.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_150.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_151.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_152.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_153.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_154.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_155.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_156.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_157.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_158.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_159.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_160.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_161.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_162.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_163.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_164.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_165.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_166.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_167.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_168.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_169.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_170.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_171.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_172.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_173.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_174.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_175.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_176.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_177.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_178.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_179.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_180.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_181.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_182.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_183.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_184.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_185.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_186.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_187.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_188.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_189.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_190.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_191.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_192.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_193.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_194.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_195.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_196.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_197.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_198.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_199.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_200.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.heart.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.rhombus.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.star.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.svastun.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.swastika.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.spark_pack.genshin.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.spark_pack.spark.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.spark_pack.sparkle.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.pack_snow.snow.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.pack_snow.snowbag1.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.pack_snow.snowbcataclysm1.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.pack_snow.snowblast1.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.pack_snow.snowbrich1.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.pack_snow.snownew1.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.mix.crown.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.mix.dollar.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.mix.feather.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.mix.genshin.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.mix.lightning.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.mix.mcross.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.mix.moon.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.targetesp.capture1.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.targetesp.capture2.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.targetesp.capture5.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.targetesp.fuckfinger.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.targetesp.quadstapple.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.targetesp.target.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.targetesp.target2.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.targetesp.targetpro.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.targetesp.trianglestapple.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.targetesp.trianglestipple.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.souls.bloom.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.souls.glow.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.souls.glow_circle.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.mix.heart.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.mix.star.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.amongus.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.crown.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.dead.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.dollar.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.light.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.polygon.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.pumpkin.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.snow.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.arrow.pointer.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.world.bloom.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.geometry_pack.p1.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.geometry_pack.p2.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.geometry_pack.p3.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.geometry_pack.p4.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.geometry_pack.p5.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.geometry_pack.p6.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.geometry_pack.p7.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.particles.geometry_pack.p8.png" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_1.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_2.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_3.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_4.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_5.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_6.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_7.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_8.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_9.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_10.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_11.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_12.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_13.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_14.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_15.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_16.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_17.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_18.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_19.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_20.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_21.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_22.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_23.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_24.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_25.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_26.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_27.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_28.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_29.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_30.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_31.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_32.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_33.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_34.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_35.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_36.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_37.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_38.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_39.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_40.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_41.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_42.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_43.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_44.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_45.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_46.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_47.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_48.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_49.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_50.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_51.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_52.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_53.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_54.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_55.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_56.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_57.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_58.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_59.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_60.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_61.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_62.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_63.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_64.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_65.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_66.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_67.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_68.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_69.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_70.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_71.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_72.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_73.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_74.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_75.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_76.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_77.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_78.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_79.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_80.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_81.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_82.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_83.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_84.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_85.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_86.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_87.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_88.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_89.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_90.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_91.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_92.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_93.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_94.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_95.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_96.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_97.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_98.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_99.jpeg" />
+    <None Remove="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_100.jpeg" />
+    <None Remove="Хитролох_иди_нахуй._46__4_____32_____" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Web.index.html" LogicalName="Kaban.cc.Resources.Web.index.html" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Web.responsive.css" LogicalName="Kaban.cc.Resources.Web.responsive.css" />
+    <EmbeddedResource Include="Kaban.cc.Resources.cimgui.dll" LogicalName="Kaban.cc.Resources.cimgui.dll" />
+    <EmbeddedResource Include="Kaban.cc.Resources.ImGuiImpl.dll" LogicalName="Kaban.cc.Resources.ImGuiImpl.dll" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Font1.Font.ttf" LogicalName="Kaban.cc.Resources.Font1.Font.ttf" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Disable.Disable1.wav" LogicalName="Kaban.cc.Resources.Sounds.Disable.Disable1.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Disable.Disable2.wav" LogicalName="Kaban.cc.Resources.Sounds.Disable.Disable2.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Disable.Disable3.wav" LogicalName="Kaban.cc.Resources.Sounds.Disable.Disable3.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Disable.Disable4.wav" LogicalName="Kaban.cc.Resources.Sounds.Disable.Disable4.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Disable.Disable5.wav" LogicalName="Kaban.cc.Resources.Sounds.Disable.Disable5.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Disable.Disable6.wav" LogicalName="Kaban.cc.Resources.Sounds.Disable.Disable6.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Disable.Disable7.wav" LogicalName="Kaban.cc.Resources.Sounds.Disable.Disable7.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Disable.Disable8.wav" LogicalName="Kaban.cc.Resources.Sounds.Disable.Disable8.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Disable.Disable9.wav" LogicalName="Kaban.cc.Resources.Sounds.Disable.Disable9.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Disable.Disable10.wav" LogicalName="Kaban.cc.Resources.Sounds.Disable.Disable10.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Disable.Disable11.wav" LogicalName="Kaban.cc.Resources.Sounds.Disable.Disable11.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Disable.Disable12.wav" LogicalName="Kaban.cc.Resources.Sounds.Disable.Disable12.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Disable.Disable13.wav" LogicalName="Kaban.cc.Resources.Sounds.Disable.Disable13.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Disable.Disable14.wav" LogicalName="Kaban.cc.Resources.Sounds.Disable.Disable14.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Disable.Disable15.wav" LogicalName="Kaban.cc.Resources.Sounds.Disable.Disable15.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Disable.Disable17.wav" LogicalName="Kaban.cc.Resources.Sounds.Disable.Disable17.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Disable.Disable18.wav" LogicalName="Kaban.cc.Resources.Sounds.Disable.Disable18.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Disable.Disable19.wav" LogicalName="Kaban.cc.Resources.Sounds.Disable.Disable19.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Disable.Disable20.wav" LogicalName="Kaban.cc.Resources.Sounds.Disable.Disable20.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Disable.Disable21.wav" LogicalName="Kaban.cc.Resources.Sounds.Disable.Disable21.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Disable.Disable22.wav" LogicalName="Kaban.cc.Resources.Sounds.Disable.Disable22.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Enable.Enable1.wav" LogicalName="Kaban.cc.Resources.Sounds.Enable.Enable1.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Enable.Enable2.wav" LogicalName="Kaban.cc.Resources.Sounds.Enable.Enable2.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Enable.Enable3.wav" LogicalName="Kaban.cc.Resources.Sounds.Enable.Enable3.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Enable.Enable4.wav" LogicalName="Kaban.cc.Resources.Sounds.Enable.Enable4.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Enable.Enable5.wav" LogicalName="Kaban.cc.Resources.Sounds.Enable.Enable5.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Enable.Enable6.wav" LogicalName="Kaban.cc.Resources.Sounds.Enable.Enable6.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Enable.Enable7.wav" LogicalName="Kaban.cc.Resources.Sounds.Enable.Enable7.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Enable.Enable8.wav" LogicalName="Kaban.cc.Resources.Sounds.Enable.Enable8.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Enable.Enable9.wav" LogicalName="Kaban.cc.Resources.Sounds.Enable.Enable9.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Enable.Enable10.wav" LogicalName="Kaban.cc.Resources.Sounds.Enable.Enable10.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Enable.Enable11.wav" LogicalName="Kaban.cc.Resources.Sounds.Enable.Enable11.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Enable.Enable12.wav" LogicalName="Kaban.cc.Resources.Sounds.Enable.Enable12.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Enable.Enable13.wav" LogicalName="Kaban.cc.Resources.Sounds.Enable.Enable13.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Enable.Enable14.wav" LogicalName="Kaban.cc.Resources.Sounds.Enable.Enable14.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Enable.Enable15.wav" LogicalName="Kaban.cc.Resources.Sounds.Enable.Enable15.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Enable.Enable17.wav" LogicalName="Kaban.cc.Resources.Sounds.Enable.Enable17.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Enable.Enable18.wav" LogicalName="Kaban.cc.Resources.Sounds.Enable.Enable18.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Enable.Enable19.wav" LogicalName="Kaban.cc.Resources.Sounds.Enable.Enable19.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Enable.Enable20.wav" LogicalName="Kaban.cc.Resources.Sounds.Enable.Enable20.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Enable.Enable21.wav" LogicalName="Kaban.cc.Resources.Sounds.Enable.Enable21.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Enable.Enable22.wav" LogicalName="Kaban.cc.Resources.Sounds.Enable.Enable22.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Hit.bell.wav" LogicalName="Kaban.cc.Resources.Sounds.Hit.bell.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Hit.bell2.wav" LogicalName="Kaban.cc.Resources.Sounds.Hit.bell2.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Hit.crime.wav" LogicalName="Kaban.cc.Resources.Sounds.Hit.crime.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Hit.Marker.wav" LogicalName="Kaban.cc.Resources.Sounds.Hit.Marker.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Hit.metallic.wav" LogicalName="Kaban.cc.Resources.Sounds.Hit.metallic.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Hit.Moan.wav" LogicalName="Kaban.cc.Resources.Sounds.Hit.Moan.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Hit.moan1.wav" LogicalName="Kaban.cc.Resources.Sounds.Hit.moan1.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Hit.moan2.wav" LogicalName="Kaban.cc.Resources.Sounds.Hit.moan2.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Hit.moan3.wav" LogicalName="Kaban.cc.Resources.Sounds.Hit.moan3.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Hit.moan4.wav" LogicalName="Kaban.cc.Resources.Sounds.Hit.moan4.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Hit.rust.wav" LogicalName="Kaban.cc.Resources.Sounds.Hit.rust.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Hit.soft.wav" LogicalName="Kaban.cc.Resources.Sounds.Hit.soft.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Hit.softhit.wav" LogicalName="Kaban.cc.Resources.Sounds.Hit.softhit.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Hit.ston.wav" LogicalName="Kaban.cc.Resources.Sounds.Hit.ston.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Hit.UwU.wav" LogicalName="Kaban.cc.Resources.Sounds.Hit.UwU.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Hit.hit3.wav" LogicalName="Kaban.cc.Resources.Sounds.Hit.hit3.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Hit.hit4.wav" LogicalName="Kaban.cc.Resources.Sounds.Hit.hit4.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Hit.kolokolnia_kill.wav" LogicalName="Kaban.cc.Resources.Sounds.Hit.kolokolnia_kill.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Hit.hitsound-tf2.wav" LogicalName="Kaban.cc.Resources.Sounds.Hit.hitsound-tf2.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Hit.critical-hit-tf2_1.wav" LogicalName="Kaban.cc.Resources.Sounds.Hit.critical-hit-tf2_1.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Hit.impressive-quake-iii.wav" LogicalName="Kaban.cc.Resources.Sounds.Hit.impressive-quake-iii.wav" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Disable.Disable16.ogg" LogicalName="Kaban.cc.Resources.Sounds.Disable.Disable16.ogg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Sounds.Enable.Enable16.ogg" LogicalName="Kaban.cc.Resources.Sounds.Enable.Enable16.ogg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.arrow.arrow.png" LogicalName="Kaban.cc.Resources.Visuals.arrow.arrow.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.arrow.arrow1.png" LogicalName="Kaban.cc.Resources.Visuals.arrow.arrow1.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.arrow.arrow2.png" LogicalName="Kaban.cc.Resources.Visuals.arrow.arrow2.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.arrow.arrow3.png" LogicalName="Kaban.cc.Resources.Visuals.arrow.arrow3.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.arrow.arrow4.png" LogicalName="Kaban.cc.Resources.Visuals.arrow.arrow4.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.arrow.arrow5.png" LogicalName="Kaban.cc.Resources.Visuals.arrow.arrow5.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.arrow.arrow6.png" LogicalName="Kaban.cc.Resources.Visuals.arrow.arrow6.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.arrow.arrow7.png" LogicalName="Kaban.cc.Resources.Visuals.arrow.arrow7.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.arrow.arrow8.png" LogicalName="Kaban.cc.Resources.Visuals.arrow.arrow8.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.arrow.arrow9.png" LogicalName="Kaban.cc.Resources.Visuals.arrow.arrow9.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.arrow.arrow10.png" LogicalName="Kaban.cc.Resources.Visuals.arrow.arrow10.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.arrow.arrow11.png" LogicalName="Kaban.cc.Resources.Visuals.arrow.arrow11.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.chinahat.hat01.png" LogicalName="Kaban.cc.Resources.Visuals.chinahat.hat01.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.chinahat.hat02.png" LogicalName="Kaban.cc.Resources.Visuals.chinahat.hat02.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.chinahat.hat03.png" LogicalName="Kaban.cc.Resources.Visuals.chinahat.hat03.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.chinahat.hat04.png" LogicalName="Kaban.cc.Resources.Visuals.chinahat.hat04.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.chinahat.hat05.png" LogicalName="Kaban.cc.Resources.Visuals.chinahat.hat05.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.chinahat.hat06.png" LogicalName="Kaban.cc.Resources.Visuals.chinahat.hat06.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.chinahat.hat07.png" LogicalName="Kaban.cc.Resources.Visuals.chinahat.hat07.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.chinahat.hat08.png" LogicalName="Kaban.cc.Resources.Visuals.chinahat.hat08.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.frageffects.vignette.png" LogicalName="Kaban.cc.Resources.Visuals.frageffects.vignette.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.hitbubble.bubble.png" LogicalName="Kaban.cc.Resources.Visuals.hitbubble.bubble.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.hitbubble.hit.png" LogicalName="Kaban.cc.Resources.Visuals.hitbubble.hit.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.circle.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.circle.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.circle3.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.circle3.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.circle4.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.circle4.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.circle5.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.circle5.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.glowedcircle.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.glowedcircle.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.jump.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.jump.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.jump_2.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.jump_2.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.konchal.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.konchal.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.swastika.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.swastika.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_1.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_1.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_2.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_2.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_3.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_3.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_4.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_4.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_5.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_5.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_6.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_6.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_7.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_7.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_8.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_8.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_9.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_9.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_10.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_10.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_11.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_11.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_12.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_12.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_13.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_13.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_14.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_14.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_15.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_15.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_16.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_16.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_17.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_17.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_18.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_18.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_19.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_19.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_20.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_20.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_21.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_21.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_22.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_22.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_23.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_23.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_24.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_24.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_25.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_25.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_26.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_26.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_27.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_27.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_28.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_28.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_29.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_29.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_30.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_30.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_31.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_31.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_32.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_32.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_33.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_33.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_34.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_34.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_35.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_35.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_36.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_36.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_37.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_37.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_38.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_38.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_39.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_39.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_40.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_40.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_41.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_41.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_42.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_42.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_43.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_43.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_44.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_44.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_45.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_45.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_46.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_46.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_47.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_47.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_48.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_48.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_49.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_49.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_50.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_50.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_51.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_51.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_52.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_52.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_53.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_53.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_54.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_54.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_55.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_55.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_56.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_56.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_57.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_57.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_58.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_58.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_59.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_59.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_60.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_60.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_61.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_61.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_62.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_62.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_63.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_63.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_64.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_64.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_65.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_65.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_66.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_66.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_67.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_67.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_68.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_68.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_69.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_69.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_70.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_70.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_71.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_71.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_72.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_72.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_73.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_73.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_74.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_74.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_75.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_75.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_76.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_76.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_77.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_77.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_78.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_78.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_79.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_79.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_80.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_80.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_81.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_81.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_82.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_82.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_83.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_83.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_84.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_84.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_85.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_85.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_86.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_86.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_87.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_87.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_88.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_88.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_89.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_89.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_90.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_90.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_91.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_91.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_92.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_92.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_93.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_93.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_94.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_94.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_95.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_95.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_96.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_96.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_97.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_97.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_98.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_98.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_99.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_99.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_100.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_100.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_101.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_101.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_102.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_102.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_103.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_103.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_104.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_104.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_105.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_105.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_106.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_106.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_107.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_107.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_108.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_108.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_109.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_109.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_110.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_110.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_111.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_111.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_112.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_112.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_113.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_113.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_114.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_114.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_115.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_115.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_116.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_116.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_117.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_117.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_118.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_118.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_119.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_119.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_120.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_120.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_121.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_121.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_122.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_122.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_123.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_123.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_124.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_124.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_125.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_125.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_126.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_126.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_127.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_127.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_128.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_128.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_129.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_129.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_130.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_130.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_131.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_131.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_132.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_132.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_133.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_133.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_134.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_134.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_135.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_135.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_136.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_136.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_137.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_137.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_138.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_138.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_139.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_139.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_140.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_140.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_141.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_141.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_142.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_142.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_143.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_143.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_144.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_144.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_145.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_145.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_146.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_146.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_147.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_147.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_148.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_148.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_149.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_149.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_150.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_150.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_151.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_151.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_152.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_152.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_153.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_153.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_154.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_154.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_155.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_155.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_156.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_156.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_157.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_157.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_158.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_158.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_159.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_159.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_160.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_160.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_161.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_161.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_162.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_162.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_163.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_163.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_164.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_164.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_165.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_165.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_166.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_166.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_167.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_167.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_168.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_168.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_169.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_169.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_170.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_170.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_171.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_171.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_172.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_172.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_173.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_173.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_174.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_174.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_175.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_175.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_176.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_176.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_177.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_177.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_178.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_178.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_179.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_179.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_180.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_180.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_181.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_181.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_182.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_182.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_183.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_183.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_184.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_184.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_185.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_185.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_186.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_186.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_187.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_187.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_188.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_188.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_189.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_189.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_190.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_190.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_191.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_191.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_192.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_192.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_193.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_193.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_194.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_194.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_195.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_195.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_196.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_196.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_197.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_197.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_198.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_198.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_199.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_199.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_200.png" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation2.circleframe_200.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.heart.png" LogicalName="Kaban.cc.Resources.Visuals.particles.heart.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.rhombus.png" LogicalName="Kaban.cc.Resources.Visuals.particles.rhombus.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.star.png" LogicalName="Kaban.cc.Resources.Visuals.particles.star.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.svastun.png" LogicalName="Kaban.cc.Resources.Visuals.particles.svastun.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.swastika.png" LogicalName="Kaban.cc.Resources.Visuals.particles.swastika.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.spark_pack.genshin.png" LogicalName="Kaban.cc.Resources.Visuals.particles.spark_pack.genshin.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.spark_pack.spark.png" LogicalName="Kaban.cc.Resources.Visuals.particles.spark_pack.spark.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.spark_pack.sparkle.png" LogicalName="Kaban.cc.Resources.Visuals.particles.spark_pack.sparkle.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.pack_snow.snow.png" LogicalName="Kaban.cc.Resources.Visuals.particles.pack_snow.snow.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.pack_snow.snowbag1.png" LogicalName="Kaban.cc.Resources.Visuals.particles.pack_snow.snowbag1.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.pack_snow.snowbcataclysm1.png" LogicalName="Kaban.cc.Resources.Visuals.particles.pack_snow.snowbcataclysm1.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.pack_snow.snowblast1.png" LogicalName="Kaban.cc.Resources.Visuals.particles.pack_snow.snowblast1.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.pack_snow.snowbrich1.png" LogicalName="Kaban.cc.Resources.Visuals.particles.pack_snow.snowbrich1.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.pack_snow.snownew1.png" LogicalName="Kaban.cc.Resources.Visuals.particles.pack_snow.snownew1.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.mix.crown.png" LogicalName="Kaban.cc.Resources.Visuals.particles.mix.crown.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.mix.dollar.png" LogicalName="Kaban.cc.Resources.Visuals.particles.mix.dollar.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.mix.feather.png" LogicalName="Kaban.cc.Resources.Visuals.particles.mix.feather.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.mix.genshin.png" LogicalName="Kaban.cc.Resources.Visuals.particles.mix.genshin.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.mix.lightning.png" LogicalName="Kaban.cc.Resources.Visuals.particles.mix.lightning.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.mix.mcross.png" LogicalName="Kaban.cc.Resources.Visuals.particles.mix.mcross.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.mix.moon.png" LogicalName="Kaban.cc.Resources.Visuals.particles.mix.moon.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.targetesp.capture1.png" LogicalName="Kaban.cc.Resources.Visuals.targetesp.capture1.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.targetesp.capture2.png" LogicalName="Kaban.cc.Resources.Visuals.targetesp.capture2.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.targetesp.capture5.png" LogicalName="Kaban.cc.Resources.Visuals.targetesp.capture5.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.targetesp.fuckfinger.png" LogicalName="Kaban.cc.Resources.Visuals.targetesp.fuckfinger.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.targetesp.quadstapple.png" LogicalName="Kaban.cc.Resources.Visuals.targetesp.quadstapple.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.targetesp.target.png" LogicalName="Kaban.cc.Resources.Visuals.targetesp.target.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.targetesp.target2.png" LogicalName="Kaban.cc.Resources.Visuals.targetesp.target2.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.targetesp.targetpro.png" LogicalName="Kaban.cc.Resources.Visuals.targetesp.targetpro.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.targetesp.trianglestapple.png" LogicalName="Kaban.cc.Resources.Visuals.targetesp.trianglestapple.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.targetesp.trianglestipple.png" LogicalName="Kaban.cc.Resources.Visuals.targetesp.trianglestipple.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.souls.bloom.png" LogicalName="Kaban.cc.Resources.Visuals.souls.bloom.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.souls.glow.png" LogicalName="Kaban.cc.Resources.Visuals.souls.glow.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.souls.glow_circle.png" LogicalName="Kaban.cc.Resources.Visuals.souls.glow_circle.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.mix.heart.png" LogicalName="Kaban.cc.Resources.Visuals.particles.mix.heart.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.mix.star.png" LogicalName="Kaban.cc.Resources.Visuals.particles.mix.star.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.amongus.png" LogicalName="Kaban.cc.Resources.Visuals.particles.amongus.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.crown.png" LogicalName="Kaban.cc.Resources.Visuals.particles.crown.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.dead.png" LogicalName="Kaban.cc.Resources.Visuals.particles.dead.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.dollar.png" LogicalName="Kaban.cc.Resources.Visuals.particles.dollar.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.light.png" LogicalName="Kaban.cc.Resources.Visuals.particles.light.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.polygon.png" LogicalName="Kaban.cc.Resources.Visuals.particles.polygon.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.pumpkin.png" LogicalName="Kaban.cc.Resources.Visuals.particles.pumpkin.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.snow.png" LogicalName="Kaban.cc.Resources.Visuals.particles.snow.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.arrow.pointer.png" LogicalName="Kaban.cc.Resources.Visuals.arrow.pointer.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.world.bloom.png" LogicalName="Kaban.cc.Resources.Visuals.world.bloom.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.geometry_pack.p1.png" LogicalName="Kaban.cc.Resources.Visuals.particles.geometry_pack.p1.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.geometry_pack.p2.png" LogicalName="Kaban.cc.Resources.Visuals.particles.geometry_pack.p2.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.geometry_pack.p3.png" LogicalName="Kaban.cc.Resources.Visuals.particles.geometry_pack.p3.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.geometry_pack.p4.png" LogicalName="Kaban.cc.Resources.Visuals.particles.geometry_pack.p4.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.geometry_pack.p5.png" LogicalName="Kaban.cc.Resources.Visuals.particles.geometry_pack.p5.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.geometry_pack.p6.png" LogicalName="Kaban.cc.Resources.Visuals.particles.geometry_pack.p6.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.geometry_pack.p7.png" LogicalName="Kaban.cc.Resources.Visuals.particles.geometry_pack.p7.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.particles.geometry_pack.p8.png" LogicalName="Kaban.cc.Resources.Visuals.particles.geometry_pack.p8.png" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_1.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_1.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_2.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_2.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_3.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_3.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_4.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_4.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_5.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_5.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_6.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_6.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_7.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_7.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_8.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_8.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_9.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_9.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_10.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_10.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_11.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_11.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_12.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_12.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_13.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_13.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_14.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_14.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_15.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_15.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_16.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_16.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_17.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_17.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_18.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_18.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_19.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_19.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_20.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_20.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_21.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_21.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_22.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_22.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_23.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_23.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_24.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_24.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_25.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_25.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_26.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_26.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_27.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_27.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_28.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_28.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_29.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_29.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_30.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_30.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_31.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_31.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_32.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_32.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_33.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_33.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_34.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_34.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_35.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_35.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_36.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_36.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_37.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_37.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_38.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_38.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_39.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_39.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_40.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_40.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_41.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_41.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_42.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_42.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_43.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_43.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_44.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_44.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_45.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_45.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_46.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_46.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_47.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_47.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_48.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_48.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_49.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_49.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_50.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_50.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_51.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_51.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_52.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_52.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_53.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_53.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_54.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_54.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_55.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_55.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_56.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_56.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_57.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_57.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_58.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_58.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_59.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_59.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_60.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_60.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_61.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_61.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_62.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_62.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_63.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_63.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_64.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_64.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_65.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_65.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_66.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_66.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_67.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_67.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_68.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_68.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_69.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_69.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_70.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_70.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_71.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_71.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_72.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_72.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_73.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_73.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_74.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_74.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_75.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_75.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_76.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_76.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_77.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_77.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_78.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_78.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_79.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_79.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_80.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_80.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_81.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_81.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_82.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_82.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_83.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_83.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_84.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_84.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_85.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_85.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_86.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_86.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_87.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_87.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_88.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_88.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_89.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_89.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_90.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_90.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_91.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_91.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_92.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_92.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_93.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_93.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_94.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_94.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_95.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_95.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_96.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_96.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_97.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_97.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_98.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_98.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_99.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_99.jpeg" />
+    <EmbeddedResource Include="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_100.jpeg" LogicalName="Kaban.cc.Resources.Visuals.jumpcircles.animated.animation1.circleframe_100.jpeg" />
+    <EmbeddedResource Include="Хитролох_иди_нахуй._46__4_____32_____" LogicalName="Хитролох_иди_нахуй._46__4_____32_____" />
+  </ItemGroup>
+  <ItemGroup />
+</Project>
