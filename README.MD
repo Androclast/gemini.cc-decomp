@@ -5,7 +5,7 @@
   <img src="fuck.png" alt="DobriyKaban defending the slop in chat" height="260">
 </p>
 
-A vibecoded RAT (cheat/Telemetry folder) masquerading as an SS14 cheat, sold for 150 RUB a week by a shkolnik who can't help himself to not get ratted himself.
+A vibecoded RAT (cheat/Telemetry folder) masquerading as an SS14 cheat, sold for 150 RUB a week by a shkolnik who can't help to not get ratted himself.
 
 This is not a *crack*, this is a decomp and organise for research and *thanking for inspiration*.
 
