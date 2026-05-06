@@ -11,6 +11,8 @@ This is not a *crack*, this is a decomp and organise for research and *thanking 
 
 Comes in two parts: `cheat` (self-explanatory), and `payload`, which holds the actual resources used by the cheat.
 
+If you wanna fuck with it [CRACKING.md](CRACKING.md) is a todo-list on how to disable telemtry and anti-tamper.
+
 ## IT'S A FUCKING RAT:
 
 Everything below is sent in the clear to a Russian VPS at `http://31.177.83.245:3001`.
